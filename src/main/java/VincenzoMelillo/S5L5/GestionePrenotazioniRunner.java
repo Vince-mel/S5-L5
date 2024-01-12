@@ -50,7 +50,7 @@ public class GestionePrenotazioniRunner implements ApplicationRunner {
 
      creaUtente("Remo Labarca", "remo77","remo77gmail.com");
 
-               //id_utente //id_postazione //datadaprenotare
+        //id_utente //id_postazione //datadaprenotare
 
      Prenota(1l,1l,"2024-02-20");
 
