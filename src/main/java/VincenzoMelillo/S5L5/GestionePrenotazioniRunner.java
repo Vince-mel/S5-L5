@@ -35,28 +35,28 @@ public class GestionePrenotazioniRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
 
-//        creaEdificio();
-//        creaPostazione();
+    creaEdificio();
+    creaPostazione();
 
 
 
 
-//        EdificioPostazioni(1L);
+       EdificioPostazioni(1L);
 
         getInfoEdificio(1l);
 
-//
-//     creaUtente("Guido LaVespa","guido88","guido88gmail.com");
 
-//        creaUtente("Remo Labarca", "remo77","remo77gmail.com");
+  creaUtente("Guido LaVespa","guido88","guido88gmail.com");
+
+     creaUtente("Remo Labarca", "remo77","remo77gmail.com");
 
                //id_utente //id_postazione //datadaprenotare
 
-//        Prenota(1l,1l,"2024-02-20");
+     Prenota(1l,1l,"2024-02-20");
 
         //proviamo a lanciare errore già prenotatq data e postazione
 
-//        Prenota(2l,1l,"2024-02-20");
+      Prenota(2l,1l,"2024-02-20");
 
 
 
