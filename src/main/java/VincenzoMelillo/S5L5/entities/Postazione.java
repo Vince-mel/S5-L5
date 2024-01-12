@@ -38,5 +38,5 @@ public class Postazione implements Serializable {
 				+ "\n" + "numero_max_occupanti=" + numero_max_occupanti + "\n" + "edificio=" + edificio + "\n" + "isLibera=" + isLibera ;
 	}
 
- 
+
 }
