@@ -38,5 +38,8 @@ public class Postazione implements Serializable {
 				+ "\n" + "numero_max_occupanti=" + numero_max_occupanti + "\n" + "edificio=" + edificio + "\n" + "isLibera=" + isLibera ;
 	}
 
-
+	public boolean checkDataIfLibera(String data) {
+		return prenotazioni.stream()
+				.anyMatch(e->e.getDataPrenotazione().toString().matches(data));
+	}
 }

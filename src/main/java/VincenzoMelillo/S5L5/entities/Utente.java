@@ -33,7 +33,11 @@ public class Utente implements Serializable {
 		return "ID=" + id_utente + ", username=" + username + ", nome_completo=" + nome_completo
 				+ ", email=" + email ;
 	}
-	
 
-	
+	public boolean checkDateUtente(String data) {
+		return prenotazioni.stream()
+				.anyMatch(e->e.getDataPrenotazione().toString().matches(data));
+	}
+
+
 }
